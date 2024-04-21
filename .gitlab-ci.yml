@@ -22,3 +22,8 @@ build:cargo:
   script:
     - rustc --version && cargo --version
     - cargo build
+  
+test:cargo:
+  script:
+    - rustc --version && cargo --version
+    - cargo test
